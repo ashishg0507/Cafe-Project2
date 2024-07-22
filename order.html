@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <link href="C:\Users\ashis\Documents\FEE\Bootstrap Project\bootstrap-5.3.3-dist\css\bootstrap-grid.css">
+    <title>Document</title>
+    <style>
+        .logo{
+            height: 80px;
+            width: 210px;
+            position: absolute;
+            padding:0px 6px;
+        }
+        nav{
+            height: 85px;
+            background-color: bisque;
+            max-width: 1600px;
+            
+        }
+        nav ul{
+            float: right;           
+        }
+        nav li{
+            display: inline-block;
+            list-style: none;
+            padding: 8px;
+        }
+        nav li a{
+            font-size: 20px;
+            font-family:cursive;
+            color: #5C4033;
+            padding: 65px;
+            text-decoration: none;
+            
+        }
+        .heading{
+            padding-left: 650px;
+            font-family: cursive;
+            color: #5C4033;
+        }
+        .details{
+            font-size: 20px;
+            font-family: cursive;
+            color: #5C4033;
+            padding: 10px 90px;
+
+        }
+        .frm{
+            display: flex;
+            background-color: #dfdddc;
+            padding: 50px 20px;
+
+        }
+        .main_form{
+            display: flex;
+            flex-direction: column;
+            padding: 100px 0px;
+        }
+        .inputbox{
+            height: 25px;
+            width: 200px;
+        }
+        .heading2{
+            font-family: cursive;
+            color: #5C4033;
+            padding: 10px 90px;
+        }
+        .image1{
+            padding-left: 180px;
+            height: 450px;
+            width: 720px;
+            border-radius: 5px;
+        }
+        .frm2{
+            display: flex;
+            background-color: #dfdddc;
+            align-items: end;
+            padding: 50px 12px;
+
+        }
+        .main_form2{
+            display: flex;
+            flex-direction:column;
+            font-size: 20px;
+            font-family: cursive;
+            color: #5C4033;
+            padding: 10px 10px;
+        }
+        .elements{
+            padding-left: 140px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .image2{
+            padding-left: 50px;
+            height: 450px;
+            width: 720px;
+            border-radius: 5px;
+        }
+        .heading3{
+            font-family: cursive;
+            color: #5C4033;
+            padding-top: 20px;
+            padding: 10px 90px;
+        }
+        .button1{
+            height: 30px;
+            width: 180px;
+            background-color: #5C4033;
+            border: none;
+            color: white;
+            font-size: 15px;
+            border-radius: 5px;
+            font-family: cursive;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="">
+
+        <nav>
+            <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html2">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+        <div class="blank">
+
+        </div>
+        <h1 class="heading">Order Here</h1>
+
+        <form class="frm">
+            <div class="main form">
+                <h1 class="heading2">Enter your details:</h1>
+                <div class="details">
+                    <label for="firstname">First Name</label>
+                    <input class="inputbox" type="text" id="firstname" name="firstname">
+                </div>
+                <div class="details">
+                    <label for="lastname">Last Name</label>
+                    <input class="inputbox" type="text" id="lastname" name="lastname">
+                </div>
+                <div class="details">
+                    <label for="phoneno">Phone no.</label>
+                    <input class="inputbox" type="tel" id="phoneno" name="phoneno">
+                </div>
+                <div class="details">
+                    <label for="email">E-mail</label>
+                    <input class="inputbox" type="email" id="email" name="email">
+                </div>
+                <div class="details">
+                    <label for="address">Address</label>
+                    <input class="inputbox" type="text" id="address" name="address">
+                </div>
+            </div>
+
+            <img class="image1" src="slogan.jpg">
+
+        </form>
+        <div>
+            <br><br><br>
+
+        </div>
+
+        <form class="frm2">
+            <img class="image2" src="img2.jpg">
+            <div class="main_form2">
+                <div class="elements">
+                <h1 class="heading3">Place Order</h1>
+                <label for="items">Select item:</label>
+                <select id="fruits" name="fruits">
+                    <option value="Chocolate Cappuccino">Chocolate Cappuccino</option>
+                    <option value="Caprese Sandwich">Caprese Sandwich</option>
+                    <option value="Chocolate Bubble Tea">Chocolate Bubble Tea</option>
+                    <option value="Chocolate Milkshake">Chocolate Milkshake</option>
+                    <option value="Cortado">Cortado</option>
+                    <option value="Double Chocolate Cookie">Double Chocolate Cookie</option>
+                    <option value="Iced Cappuccino">Iced Cappuccino</option>
+                    <option value="Iced Signature Chocolate">Iced Signature Chocolate</option>
+                    <option value="Iced Cafe Mocha">Iced Cafe Mocha</option>
+                    <option value="Strawberry Milkshake">Strawberry Milkshake</option>
+                    <option value="Vanilla Chai Latte">Vanilla Chai Latte</option>
+                    <option value="Veg Pasta">Veg Pasta</option>
+                    <option value="Red Velvet Latte">Red Velvet Latte</option>
+                    <option value="Veg Pizza">Veg Pizza</option>
+                    <option value="Margherita pizza">Margherita pizza</option>
+                </select>
+                </div>
+                <div class="elements">
+                <label for="items">Select item(optional):</label>
+                <select id="fruits" name="fruits">
+                    <option value="None">None</option>
+                    <option value="Chocolate Cappuccino">Chocolate Cappuccino</option>
+                    <option value="Caprese Sandwich">Caprese Sandwich</option>
+                    <option value="Chocolate Bubble Tea">Chocolate Bubble Tea</option>
+                    <option value="Chocolate Milkshake">Chocolate Milkshake</option>
+                    <option value="Cortado">Cortado</option>
+                    <option value="Double Chocolate Cookie">Double Chocolate Cookie</option>
+                    <option value="Iced Cappuccino">Iced Cappuccino</option>
+                    <option value="Iced Signature Chocolate">Iced Signature Chocolate</option>
+                    <option value="Iced Cafe Mocha">Iced Cafe Mocha</option>
+                    <option value="Strawberry Milkshake">Strawberry Milkshake</option>
+                    <option value="Vanilla Chai Latte">Vanilla Chai Latte</option>
+                    <option value="Veg Pasta">Veg Pasta</option>
+                    <option value="Red Velvet Latte">Red Velvet Latte</option>
+                    <option value="Veg Pizza">Veg Pizza</option>
+                    <option value="Margherita pizza">Margherita pizza</option>
+                    
+                    
+                </select>
+                </div>
+                <div class="elements">
+                <label for="items">Select item(optional):</label>
+                <select id="fruits" name="fruits">
+                    <option value="None">None</option>
+                    <option value="Chocolate Cappuccino">Chocolate Cappuccino</option>
+                    <option value="Caprese Sandwich">Caprese Sandwich</option>
+                    <option value="Chocolate Bubble Tea">Chocolate Bubble Tea</option>
+                    <option value="Chocolate Milkshake">Chocolate Milkshake</option>
+                    <option value="Cortado">Cortado</option>
+                    <option value="Double Chocolate Cookie">Double Chocolate Cookie</option>
+                    <option value="Iced Cappuccino">Iced Cappuccino</option>
+                    <option value="Iced Signature Chocolate">Iced Signature Chocolate</option>
+                    <option value="Iced Cafe Mocha">Iced Cafe Mocha</option>
+                    <option value="Strawberry Milkshake">Strawberry Milkshake</option>
+                    <option value="Vanilla Chai Latte">Vanilla Chai Latte</option>
+                    <option value="Veg Pasta">Veg Pasta</option>
+                    <option value="Red Velvet Latte">Red Velvet Latte</option>
+                    <option value="Veg Pizza">Veg Pizza</option>
+                    <option value="Margherita pizza">Margherita pizza</option>
+                    
+                    
+                </select>
+                </div>
+                <div class="elements">
+
+                <label for="payment">Select Payment Method:</label>
+                <select id="payment" name="payment">
+                    <option value="UPI">UPI</option>
+                    <option value="Netbanking">Netbanking</option>
+                    <option value="Credit/Debit Card">Credit/Debit Card</option>
+                    <option value="Brew Haven Wallet">Brew Haven Wallet</option>
+                </select>
+                </div>
+                <div class="elements">
+                <div class="coupon">
+                    <label for="coupon">Voucher Code(if any):</label>
+                    <input class="inputbox" type="text" id="coupon" name="coupon">
+                </div>
+                <br>
+                <div class="button1">
+                    <button class="button1">Proceed to Payment</button>
+                </div>
+                <div class="button2">
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+
+        
+
+    </header>
+    
+</body>
+</html>

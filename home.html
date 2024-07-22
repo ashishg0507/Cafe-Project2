@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="C:\Users\ashis\Documents\FEE\Bootstrap Project\bootstrap-5.3.3-dist\css\bootstrap-grid.css">
+    <style>
+        .logo{
+            height: 80px;
+            width: 210px;
+            position: absolute;
+            padding:0px 6px;
+        }
+        nav{
+            height: 85px;
+            background-color: bisque;
+            max-width: 1600px;
+            
+        }
+        nav ul{
+            float: right;           
+        }
+        nav li{
+            display: inline-block;
+            list-style: none;
+            padding: 8px;
+        }
+        nav li a{
+            font-size: 20px;
+            font-family:cursive;
+            color: #5C4033;
+            padding: 65px;
+            text-decoration: none;
+            
+        }
+        .front-body{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .image1{
+            object-fit: cover;
+            margin-bottom: 10px;
+            height: 350px;
+            width: 550px;
+            border-radius: 5px;
+        }
+        .blank{
+            height:50px ;
+        }
+        .content1 h1{
+            font-size: 50px;
+            font-family: cursive;
+            color: #5C4033;
+            padding:0px ;
+            text-decoration: none;
+        }
+        .content1 p{
+            font-size:20px;
+            font-family: cursive;
+            color: black;
+            text-decoration: none;
+        }
+        .front-body{
+            background-color: rgb(212, 212, 213);
+            padding: 30px 5px;
+            border-radius: 5px;
+        }
+        .content1{
+            padding: 20px;
+        }
+        .recommends{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .items img{
+            height:130px ;
+            width:130px ;
+            border-radius: 50%;
+            border:10px;
+            border-color: #5C4033;
+
+        }
+        .items p{
+            padding: 0px 28px;
+            margin: 0;
+            font-family: cursive;
+        }
+        .heading1{
+            font-family: cursive;
+            padding-left: 550px;
+            color: #5C4033;
+        }
+        .footerf{
+            background-color: #5C4033;
+        }
+        .ef{
+            display: flex;
+            font-size: 14px;
+            font-family: cursive;
+            color: white;
+            justify-content: space-around;
+            padding-top: 80px;
+            padding-bottom: 50px;
+
+
+        }
+        .img{
+            height: 30px;
+            width: 30px;
+            padding-left: 5px;
+            border-radius: 50%;
+        }
+        .logof{
+            height: 80px;
+            width: 210px;
+            padding: 0px 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="">
+
+        <nav>
+            <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu2.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+        <div class="blank">
+
+        </div>
+        <div class="front-body">
+            <div class="content1">
+            <h1>Make your Day!</h1>
+            <p>"Experience the perfect blend of flavor and relaxation at  Brew Haven,<br> your sanctuary for artisanal coffee, freshly baked treats, and a welcoming<br> atmosphere that feels like home."</p>
+            </div>
+            <img class="image1" src="img1.jpeg">
+        </div>
+
+        <h1 class="heading1">Brew Haven Recommends!</h1>
+
+        <div class="recommends">
+            <div class="items">
+                <img src="cold coffee.jpg">
+                <p>Cold Coffee</p>
+            </div>
+            <div class="items">
+                <img src="cappuccino.jpg">
+                <p>Hot Coffee</p>
+            </div>
+            <div class="items">
+                <img src="sandwich.jpg">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eats</p>
+            </div>
+            <div class="items">
+                <img src="juice.jpg">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Juices</p>
+            </div>
+            <div class="items">
+                <img src="chocolates.jpg">
+                <p>&nbsp;Chocolates</p>
+            </div>
+        </div>
+        
+    </header><br><br>
+
+    
+</body>
+<footer>
+    <div class="footerf">
+        <div class="ef">
+            <img class="logof" src="logof.png" alt="">
+            <div class="aboutf">
+                <h2>About Us</h2>
+                <p>Our Culture</p><p>Our Company</p><p>Our Cafe</p>
+            </div>
+            <div class="aboutf">
+                <h2>Community</h2>
+                <p>Heritage</p><p>Partners</p><p>Sourcing</p><p>More...</p>
+            </div>
+            <div class="aboutf">
+                <h2>Links</h2>
+                <p>Our Policy</p><p>Sevices</p><p>Subscription</p><p>Terms of Usage</p><p>Delivery</p>
+            </div>
+            <div class="aboutf">
+                <h2>Follow Us-</h2>
+                <img class="img" src="insta.png">
+                <img class="img" src="facebook.png">
+                <img class="img" src="twitter.png">
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="C:\Users\ashis\Documents\FEE\Bootstrap Project\bootstrap-5.3.3-dist\css\bootstrap-grid.css">
+    <style>
+        .logo{
+            height: 80px;
+            width: 210px;
+            position: absolute;
+            padding:0px 6px;
+        }
+        nav{
+            height: 85px;
+            background-color: bisque;
+            max-width: 1600px;
+            
+        }
+        nav ul{
+            float: right;           
+        }
+        nav li{
+            display: inline-block;
+            list-style: none;
+            padding: 8px;
+        }
+        nav li a{
+            font-size: 20px;
+            font-family:cursive;
+            color: #5C4033;
+            padding: 65px;
+            text-decoration: none;
+            
+        }
+        .menu-section {
+            margin-top: 50px;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .menu-item {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .menu-item h4 {
+            margin-top: 15px;
+        }
+        footer {
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+                font-family: cursive;
+            }
+            header {
+                padding: 30px 0;
+            }
+            .menu-item {
+                padding: 15px;
+            }
+        }
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 2em;
+            }
+            header {
+                padding: 20px 0;
+            }
+            .menu-item {
+                padding: 10px;
+                font-family: cursive;
+            }
+        }
+        .name{
+            font-family: cursive;
+            color: #5C4033;
+        }
+        .rate{
+            font-family: cursive;
+            color: #5C4033;
+        }
+        .text-center{
+            font-family: cursive;
+            color: #5C4033;
+            font-size: 30px;
+            padding-left: 650px;
+        }
+        .footerf{
+            background-color: #5C4033;
+        }
+        .ef{
+            display: flex;
+            font-size: 14px;
+            font-family: cursive;
+            color: white;
+            justify-content: space-around;
+            padding-top: 80px;
+            padding-bottom: 50px;
+
+
+        }
+        .img{
+            height: 30px;
+            width: 30px;
+            padding-left: 5px;
+            border-radius: 50%;
+        }
+        .logof{
+            height: 80px;
+            width: 210px;
+            padding: 0px 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="">
+
+        <nav>
+            <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu2.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+        <div class="blank">
+
+        </div>
+        <div class="container menu-section">
+            <h2 class="text-center">Our Menu</h2>
+            <div class="menu-grid mt-4">
+                <div class="menu-item">
+                    <img src="cappuccino.jpg" >
+                    <h4 class="name">Cappuccino</h4>
+                    <p class="rate">Rs. 250</p>
+                </div>
+                <div class="menu-item">
+                    <img src="caprese sandwich.jpg" >
+                    <h4 class="name">Caprese Sandwich</h4>
+                    <p class="rate">Rs. 170</p>
+                </div>
+                <div class="menu-item">
+                    <img src="chocolate bubble tea.jpg" >
+                    <h4 class="name">Chocolate Bubble Tea</h4>
+                    <p class="rate">Rs. 270</p>
+                </div>
+                <div class="menu-item">
+                    <img src="chocolate milkshake.jpg" >
+                    <h4 class="name">Chocolate Milkshake</h4>
+                    <p class="rate">Rs. 280</p>
+                </div>
+                <div class="menu-item">
+                    <img src="cortado.jpg" >
+                    <h4 class="name">Cortado</h4>
+                    <p class="rate">Rs. 250</p>
+                </div>
+                <div class="menu-item">
+                    <img src="double chocolate.jpg" >
+                    <h4 class="name">Double Chocolate Cookies</h4>
+                    <p class="rate">Rs. 220</p>
+                </div>
+                <div class="menu-item">
+                    <img src="iced cappuccino.jpg" >
+                    <h4 class="name">Iced Cappuccino</h4>
+                    <p class="rate">Rs. 320</p>
+                </div>
+                <div class="menu-item">
+                    <img src="iced signature chocolate.png" >
+                    <h4 class="name">Iced Signature Chocolate</h4>
+                    <p class="rate">Rs. 350</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Iced_Cafe_Mocha.jpg" >
+                    <h4 class="name">Iced Cafe Mocha</h4>
+                    <p class="rate">Rs. 280</p>
+                </div>
+                <div class="menu-item">
+                    <img src="strawberry milkshake.png" >
+                    <h4 class="name">Strawberry Milkshake</h4>
+                    <p class="rate">Rs. 290</p>
+                </div>
+                <div class="menu-item">
+                    <img src="vanilla chai tea latte.jpg" >
+                    <h4 class="name">Vanilla Chai Latte</h4>
+                    <p class="rate">Rs. 200</p>
+                </div>
+                <div class="menu-item">
+                    <img src="veg pasta.jpg" >
+                    <h4 class="name">Veg Pasta</h4>
+                    <p class="rate">Rs. 220</p>
+                </div>
+                <div class="menu-item">
+                    <img src="red velvet latte.jpg" >
+                    <h4 class="name">Ted Velvet Latte</h4>
+                    <p class="rate">Rs. 280</p>
+                </div>
+                <div class="menu-item">
+                    <img src="veg pizza.jpg" >
+                    <h4 class="name">Veg Pizza</h4>
+                    <p class="rate">Rs. 720</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Margherita pizza.jpg">
+                    <h4 class="name">Alfredo PastaMargherita Pizza. </h4>
+                    <p class="rate">Rs. 650</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="footerf">
+            <div class="ef">
+                <img class="logof" src="logof.png" alt="">
+                <div class="aboutf">
+                    <h2>About Us</h2>
+                    <p>Our Culture</p><p>Our Company</p><p>Our Cafe</p>
+                </div>
+                <div class="aboutf">
+                    <h2>Community</h2>
+                    <p>Heritage</p><p>Partners</p><p>Sourcing</p><p>More...</p>
+                </div>
+                <div class="aboutf">
+                    <h2>Links</h2>
+                    <p>Our Policy</p><p>Sevices</p><p>Subscription</p><p>Terms of Usage</p><p>Delivery</p>
+                </div>
+                <div class="aboutf">
+                    <h2>Follow Us-</h2>
+                    <img class="img" src="insta.png">
+                    <img class="img" src="facebook.png">
+                    <img class="img" src="twitter.png">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>

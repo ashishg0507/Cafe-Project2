@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="C:\Users\ashis\Documents\FEE\Bootstrap Project\bootstrap-5.3.3-dist\css\bootstrap-grid.css">
+    <title>Document</title>
+    <style>
+        .logo{
+            height: 80px;
+            width: 210px;
+            position: absolute;
+            padding:0px 6px;
+        }
+        nav{
+            height: 85px;
+            background-color: bisque;
+            max-width: 1600px;
+            
+        }
+        nav ul{
+            float: right;           
+        }
+        nav li{
+            display: inline-block;
+            list-style: none;
+            padding: 8px;
+        }
+        nav li a{
+            font-size: 20px;
+            font-family:cursive;
+            color: #5C4033;
+            padding: 65px;
+            text-decoration: none;
+            
+        }
+        .menu{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 200px;
+            border-radius: 5px;
+            background-color: #d1d1d1;
+            padding: 0px 50px;
+        }
+        .item img{
+            height: 200px;
+            width: 200px;
+            padding-top: 15px;
+        }
+        .para1{
+            font-size: 25px;
+            font-family: cursive;
+            color: #5C4033;
+        }
+        .para2{
+            font-size: 15px;
+            font-family: cursive;
+            color: #828282;
+        }
+        .main_heading{
+            font-size: 40px;
+            color: #5C4033;
+            font-family: cursive;
+            padding-left: 675px;
+        }
+        .price{
+            font-size: 25px;
+            font-family: cursive;
+            color: #5C4033;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="">
+
+        <nav>
+            <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+        <div class="blank">
+
+        </div>
+
+        <h1 class="main_heading">Menu</h1>
+
+        <div class="menu">
+            <div class="item">
+                <img src="cappuccino.jpg">
+                <p class="para1">Chocolate Cappuccino</p>
+                <p class="para2">Our Chocolate Cappuccino is a delightful blend of rich, velvety chocolate and robust espresso, topped with a frothy layer of steamed milk.</p>
+                <p class="price">₹299.00</p>
+            </div>
+            <div class="item">
+                <img src="caprese sandwich.jpg">
+                <p class="para1">Caprese Sandwich</p>
+                <p class="para2">Our Caprese Sandwich is a fresh and flavorful Italian classic. It features layers of ripe tomatoes, creamy mozzarella, and fragrant basil leaves, all drizzled with a hint of balsamic glaze and extra virgin olive oil.</p>
+                <p class="price">₹180.00</p>
+            </div>
+            <div class="item">
+                <img src="chocolate bubble tea.jpg">
+                <p class="para1">Chocolate Bubble Tea</p>
+                <p class="para2">Our Chocolate Bubble Tea is a delightful fusion of rich chocolate flavor and the fun texture of chewy tapioca pearls.</p>
+                <p class="price">₹225.00</p>
+            </div>
+            <div class="item">
+                <img src="chocolate milkshake.jpg">
+                <p class="para1">Chocolate Milkshake</p>
+                <p class="para2">Our Chocolate Milkshake is a classic, creamy delight that brings together the richness of premium chocolate ice cream and the smoothness of fresh milk. </p>
+                <p class="price">₹260.00</p>
+            </div>
+            <div class="item">
+                <img src="cortado.jpg">
+                <p class="para1">Cortado</p>
+                <p class="para2">Our Cortado is a perfectly balanced espresso-based drink that combines equal parts of rich, bold espresso and warm, velvety steamed milk.</p>
+                <p class="price">₹350.00</p>
+            </div>
+            <div class="item">
+                <img src="double chocolate.jpg">
+                <p class="para1">Double Chocolate Cookie</p>
+                <p class="para2">Our Double Chocolate Cookie is a decadent treat for true chocolate lovers. This cookie features a rich, buttery dough infused with premium cocoa powder.</p>
+                <p class="price">₹390.00</p>
+            </div>
+            <div class="item">
+                <img src="iced cappuccino.jpg">
+                <p class="para1">Iced Cappuccino</p>
+                <p class="para2">Our Iced Cappuccino is a refreshing twist on the classic cappuccino. It starts with a base of robust, freshly brewed espresso, which is then combined with cool, creamy milk and poured over ice.</p>
+                <p class="price">₹290.00</p>
+            </div>
+            <div class="item">
+                <img src="iced signature chocolate.png">
+                <p class="para1">Iced Signature Chocolate</p>
+                <p class="para2">Our Iced Signature Chocolate is a luxurious cold beverage crafted for chocolate enthusiasts. This drink features our rich, velvety chocolate blend, expertly chilled</p>
+                <p class="price">₹330.00</p>
+            </div>
+            <div class="item">
+                <img src="Iced_Cafe_Mocha.jpg">
+                <p class="para1">Iced Cafe Mocha</p>
+                <p class="para2">Our Iced Cafe Mocha is a delightful fusion of rich espresso, velvety chocolate, and creamy milk, all served over ice for a refreshing twist.</p>
+                <p class="price">₹350.00</p>
+            </div>
+            <div class="item">
+                <img src="strawberry milkshake.png">
+                <p class="para1">Strawberry Milkshake</p>
+                <p class="para2">Our Strawberry Milkshake is a delightful blend of creamy vanilla ice cream and ripe, juicy strawberries.</p>
+                <p class="price">₹320.00</p>
+            </div>
+            <div class="item">
+                <img src="vanilla chai tea latte.jpg">
+                <p class="para1">Vanilla Chai Latte</p>
+                <p class="para2">Our Vanilla Chai Latte is a comforting blend of spiced chai tea and creamy steamed milk, sweetened with a touch of vanilla. </p>
+                <p class="price">₹290.00</p>
+            </div>
+            <div class="item">
+                <img src="veg pasta.jpg">
+                <p class="para1">Veg Pasta </p>
+                <p class="para2">Our Veg Pasta is a vibrant and wholesome dish brimming with fresh, seasonal vegetables. Tossed in a savory tomato sauce or a creamy Alfredo base.</p>
+                <p class="price">₹300.00</p>
+            </div>
+            <div class="item">
+                <img src="red velvet latte.jpg">
+                <p class="para1">Red Velvet Latte</p>
+                <p class="para2">Our Red Velvet Latte is a decadent and visually stunning beverage that captures the essence of the classic red velvet cake.</p>
+                <p class="price">v390.00</p>
+            </div>
+            <div class="item">
+                <img src="veg pizza.jpg">
+                <p class="para1">Veg Pizza</p>
+                <p class="para2">Our Veg Pizza is a delicious, colorful creation loaded with an array of fresh, high-quality vegetables. Featuring a crispy, golden crust, this pizza is topped with a savory tomato sauce.</p>
+                <p class="price">₹680.00</p>
+            </div>
+            <div class="item">
+                <img src="Margherita pizza.jpg">
+                <p class="para1">Margherita pizza</p>
+                <p class="para2">Our Margherita Pizza is a timeless classic that highlights simplicity and quality. Featuring a thin, crispy crust topped with a rich tomato sauce, creamy mozzarella cheese.</p>
+                <p class="price">₹550.00</p>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>
